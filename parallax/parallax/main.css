@@ -1,0 +1,40 @@
+html{
+    background: url("img/Cool-Space-Background.jpg") no-repeat center center fixed;
+    z-index: -1;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: white;
+}
+main{
+    height: 100vh;
+    width: 110vw;
+}
+.kerros1{
+    background-image: url("img/masa.png");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    z-index: 1;
+}
+.kerros2{
+    background-image: url("img/alus.png");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top: 500px;
+    left: 500px;
+    z-index: 0;
+}
+#muoto{
+    border: 1px solid white;
+    padding: 6px 0 0 6px ;
+    height: 120px;
+    width: 400px;
+    position: absolute;
+    bottom: 40px;
+    z-index: 2;
+}
